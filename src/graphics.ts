@@ -63,8 +63,12 @@ export function WaitForElm<T>(selector: string): Promise<T> {
   });
 }
 
-export function InitMovement(dataId: string): void {
+export function InitMovement(
+  dataId: string,
+  options?: JQueryUI.DraggableOptions
+): void {
   jQuery(`[data-id="${dataId}"]`).draggable({
     containment: "parent",
+    ...options,
   });
 }
