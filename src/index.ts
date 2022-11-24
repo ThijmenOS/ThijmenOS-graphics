@@ -14,4 +14,22 @@
 
 */
 
-export * from "./graphics";
+import { AddElement } from "./AddElement";
+import { AddOrRemoveClass } from "./AddOrRemoveClass";
+import { ClearElement } from "./ClearElement";
+import { CreateElementFromString } from "./CreateElementFromString";
+import { GetElementByClass } from "./GetElementByClass";
+import { InitMovement } from "./InitMovement";
+import { WaitForElm } from "./WaitForElement";
+import { MainAppContainer } from "./graphics";
+
+export {
+  AddElement,
+  AddOrRemoveClass,
+  ClearElement,
+  CreateElementFromString,
+  GetElementByClass,
+  InitMovement,
+  MainAppContainer,
+  WaitForElm,
+};
