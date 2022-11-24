@@ -41,7 +41,7 @@ jobs:
       - run: git config user.email "thijmen@ik.nu"
       - run: git config user.name "Thijmen Brand"
       - run: npm ci
-      - run: npm version patch
+      - run: npm version ${{ github.event.release.tag_name }}
       - run: npm run build
       - run: npm publish
         env:
