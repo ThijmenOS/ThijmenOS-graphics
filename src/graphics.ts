@@ -27,6 +27,10 @@ export function AddElement(
   targetElement.append(element);
 }
 
+export function ClearElement(element: HTMLElement): void {
+  element.innerHTML = "";
+}
+
 export function AddOrRemoveClass(
   targetElement: Array<HTMLElement>,
   classes: Array<string>,
