@@ -1,4 +1,4 @@
-import { ClassOperation } from "@thijmenos/common";
+import { ClassOperation } from "@thijmen-os/common";
 
 export function AddOrRemoveClass(
   targetElement: Array<HTMLElement>,
