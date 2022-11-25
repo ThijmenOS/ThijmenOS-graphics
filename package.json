@@ -1,6 +1,6 @@
 {
-  "name": "@thijmenos/graphics",
-  "version": "1.0.12",
+  "name": "@thijmen-os/graphics",
+  "version": "1.0.0",
   "description": "the graphics utilities for the thijmenos projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,9 +14,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThijmenOS/ThijmenOS-graphics.git"
-  },
-  "publishConfig": {
-    "@thijmenos:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "thijmenos"
