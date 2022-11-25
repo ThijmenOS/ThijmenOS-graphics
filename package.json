@@ -16,7 +16,7 @@
     "url": "git+https://github.com/ThijmenOS/ThijmenOS-graphics.git"
   },
   "publishConfig": {
-    "@ThijmenOS:registry": "https://npm.pkg.github.com"
+    "@thijmenos:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "thijmenos"
@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/ThijmenOS/ThijmenOS-graphics#readme",
   "devDependencies": {
-    "@thijmenos/eslint-config": "^1.0.0",
-    "@types/jquery": "^2.0.47",
+    "@thijmenos/eslint-config": "^1.0.9",
     "@types/jest": "^29.2.3",
+    "@types/jquery": "^2.0.47",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
     "ts-jest": "^29.0.3",
